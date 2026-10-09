@@ -7,7 +7,7 @@ st.set_page_config(page_title="E-commerce Analytics", layout="wide")
 
 @st.cache_data
 def load():
-    df = pd.read_csv("data.csv", encoding="latin1")
+    df = pd.read_csv("data.csv.gz", encoding="latin1")
     df = df.dropna(subset=["CustomerID"])
     df = df[~df["InvoiceNo"].astype(str).str.startswith("C")]  # remove cancellations
     df = df[(df.Quantity > 0) & (df.UnitPrice > 0)]
