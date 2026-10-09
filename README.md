@@ -2,8 +2,10 @@
 
 Interactive dashboard analysing **~400K transactions** of a UK-based online gift retailer (Dec 2010 – Dec 2011).
 
-**Live demo:** _add your Streamlit link here_
+**Live demo:** https://ecommerce-sales-customer-analytics-diddafe7uqf768cpmtuy56.streamlit.app/
+
 **Tech:** Python, Pandas, Plotly, Streamlit
+
 **Dataset:** [Kaggle: E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data) (UCI Online Retail)
 
 ## Features
